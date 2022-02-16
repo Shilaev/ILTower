@@ -1,18 +1,35 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
 
 public class ImageRecognitionExample : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private ARTrackedImageManager _arTrackedImageManager;
+
+    private void Awake()
     {
-        
+        _arTrackedImageManager = FindObjectOfType<ARTrackedImageManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        
+        _arTrackedImageManager.trackedImagesChanged += OnImageChanged;
     }
+
+    private void OnDisable()
+    {
+        _arTrackedImageManager.trackedImagesChanged -= OnImageChanged;
+    }
+
+    public void OnImageChanged(ARTrackedImagesChangedEventArgs obj)
+    {
+        foreach (var trackedImage in obj.added)
+        {
+            Debug.Log(trackedImage.name);
+        }
+    }
+
+
 }
