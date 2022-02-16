@@ -56,7 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlacementController.cs" />
+    <Compile Include="Assets\ImageRecognitionExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -724,15 +724,6 @@
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARKit.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARKit">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.ARKit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARCore.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll</HintPath>
