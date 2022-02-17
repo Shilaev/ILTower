@@ -60,7 +60,6 @@
     <Compile Include="Assets\ARTapToPlaceObjects.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\StreamingAssets\HiddenARCore\6397412c-cf75-454e-b7be-a2c5efdf4c7b.imgdb-imglist.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
