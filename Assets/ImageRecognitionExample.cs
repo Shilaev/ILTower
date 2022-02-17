@@ -6,11 +6,14 @@ using UnityEngine.XR.ARFoundation;
 
 public class ImageRecognitionExample : MonoBehaviour
 {
+    [SerializeField] private GameObject _object;
+    private GameObject _spawnObject;
     private ARTrackedImageManager _arTrackedImageManager;
 
     private void Awake()
     {
         _arTrackedImageManager = FindObjectOfType<ARTrackedImageManager>();
+
     }
 
     private void OnEnable()
@@ -25,10 +28,12 @@ public class ImageRecognitionExample : MonoBehaviour
 
     public void OnImageChanged(ARTrackedImagesChangedEventArgs obj)
     {
-        foreach (var trackedImage in obj.added)
+        if (_spawnObject == null)
         {
-            Debug.Log(trackedImage.name);
+            _spawnObject = Instantiate(_object);
+            _spawnObject.transform.position = _arTrackedImageManager.trackedImagePrefab.transform.position;
         }
+
     }
 
 
