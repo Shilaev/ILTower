@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "RZ8RC044N6P",
     "m_SelectedPackage": {
-        "deviceId": "RZ8RC044N6P",
-        "name": "com.DefaultCompany.ILTower",
-        "processId": 14108,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -78,6 +78,138 @@
             "deviceId": "RZ8RC044N6P",
             "name": "com.DefaultCompany.ILTower",
             "processId": 14108,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 32577,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 1631,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 4793,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 5071,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 7119,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 8490,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 9715,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 11477,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 13375,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 16237,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 18322,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 18863,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 24881,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 25690,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 26352,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8RC044N6P",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 6574,
+            "exited": false
+        },
+        {
+            "deviceId": "b7bacc31",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 21732,
+            "exited": false
+        },
+        {
+            "deviceId": "b7bacc31",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 22863,
+            "exited": false
+        },
+        {
+            "deviceId": "b7bacc31",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 24432,
+            "exited": false
+        },
+        {
+            "deviceId": "b7bacc31",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 25272,
+            "exited": false
+        },
+        {
+            "deviceId": "b7bacc31",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 26998,
+            "exited": false
+        },
+        {
+            "deviceId": "b7bacc31",
+            "name": "com.DefaultCompany.ILTower",
+            "processId": 27901,
             "exited": false
         }
     ],
